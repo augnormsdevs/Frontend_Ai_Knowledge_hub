@@ -13,7 +13,7 @@ export default function Home() {
       <header className="bg-white py-6">
         <div className="container mx-auto flex justify-between items-center px-6">
           <h1 className="text-2xl font-bold text-[dodgerblue">AI Knowledge Hub</h1>
-          <nav className="hidden md:flex space-x-8">
+          <nav className=" md:flex space-x-8">
             <button onClick={() => router.push('/')} className="text-[dodgerblue] hover:text-blue-600 cursor-pointer">Home</button>
             <button onClick={() => router.push('/register')} className="text-[dodgerblue] hover:text-blue-600 cursor-pointer">Register</button>
             <button onClick={() => router.push('/login')} className="text-[dodgerblue] hover:text-blue-600 cursor-pointer">Login</button>

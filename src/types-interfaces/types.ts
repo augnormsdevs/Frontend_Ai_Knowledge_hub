@@ -23,3 +23,9 @@ export type Document = {
   uploaded_at: string; // ISO 8601 format datetime string
   file_size: number
 };
+
+export interface Message {
+  sender: 'user' | 'ai'
+  text: string
+  timestamp: string
+}
