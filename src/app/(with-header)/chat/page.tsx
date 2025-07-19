@@ -150,16 +150,6 @@ const ChatPage = () => {
                   {msg.timestamp}
                 </span>
               </div>
-
-              {msg.sender === 'user' && (
-                <Image
-                  src="/right-image.png"
-                  alt="User avatar"
-                  width={32}
-                  height={32}
-                  className="ml-2 rounded-full sm:block"
-                />
-              )}
             </div>
           ))}
 
