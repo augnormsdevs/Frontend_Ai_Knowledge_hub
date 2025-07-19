@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState, useRef } from 'react'
 import { Paperclip, Send } from 'lucide-react'
-import Image from 'next/image'
 import useAuthRedirect from '@/hooks/useAuthRedirect'
 import Button from '@/components/Button'
 import axios from 'axios'
